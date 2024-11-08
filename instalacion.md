@@ -2,13 +2,13 @@
 
 # Instal·lar la versió 7.4 de php
 
-[1](1.png)
+![1](1.png)
 
-[2](2.png)
+![2](2.png)
 
-[3](3.png)
+![3](3.png)
 
-[4](4.png)
+![4](4.png)
 
 Ara, hem de seleccionar la versió de php que volem instal·lar, que és la 7.4. Escrivim, en aquest cas, "1" per seleccionar-la i li donem a enter.
 
