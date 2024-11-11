@@ -30,3 +30,5 @@ Pots asignar permisos per que altres usuaris no puguin accedir als arxius.
 ![permisos](PERMISOS.png)
 
 ![PERMISOS](LAPRUEBA.png)
+
+Si vols accedir amb un altre usuari, simplement has d'iniciar sessió a la cloud amb el nom d'usuari i la seva contrasenya que has creat a l'apartat d'usuaris amb el compte d'administrador.
