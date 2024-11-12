@@ -28,13 +28,13 @@ Instal·larem algunes llibreries de php i reiniciem apache2.
 
 ![11](11.png)
 
-Accedim a la consola de mysql, on creem la base de dades, un usuari i li donem privilegis. Seguit, probarem la connexió a la base de dades.
+Accedim a la consola de mysql, on creem la base de dades, un usuari i li donem privilegis. Seguit, probarem la connexió a la base de dades. Si ens deixa iniciar sessió amb l'usuari que hem creat, anem bé.
 
 ![12](12.png)
 
 ![13](13.png)
 
-Per permetre la connexió des d'una màquina remota, hem de canviar aquest paràmetre
+Per permetre la connexió des d'una màquina remota, primer hem de cambiar aquest paràmetre. Ho farem amb `vim /etc/mysql/mysql.conf.d/mysqld.cnf`. Hem de canviar `bind-address = 127.0.0.` per `bind-address = 0.0.0.`
 
 ![14](14.png)
 
@@ -46,7 +46,9 @@ Creem un usuari per accedir des d'una màquina remota
 
 ![17](17.png)
 
-Descarreguem [ownCloud](https://download.owncloud.com/server/stable/owncloud-complete-20240724.zip), movem el .zip a la carpeta on el volem descomprimir i el descomprimim. Per últim, també aplicarem permisos a les nostres aplicacions web.
+Descarreguem [ownCloud](https://download.owncloud.com/server/stable/owncloud-complete-20240724.zip), movem el .zip a la carpeta on el volem descomprimir i el descomprimim.
+
+Per últim, també aplicarem permisos a les nostres aplicacions web.
 
 ![18](18.png)
 
