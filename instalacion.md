@@ -34,7 +34,7 @@ Accedim a la consola de mysql, on creem la base de dades, un usuari i li donem p
 
 ![13](13.png)
 
-Per permetre la connexió des d'una màquina remota, primer hem de cambiar aquest paràmetre. Ho farem amb `vim /etc/mysql/mysql.conf.d/mysqld.cnf`. Hem de canviar `bind-address = 127.0.0.` per `bind-address = 0.0.0.`
+Per permetre la connexió des d'una màquina remota, primer hem de cambiar aquest paràmetre. Accedirem a l'arxiu i l'editarem amb `vim /etc/mysql/mysql.conf.d/mysqld.cnf`. Hem de canviar `bind-address = 127.0.0.` per `bind-address = 0.0.0.`
 
 ![14](14.png)
 
